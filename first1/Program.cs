@@ -20,7 +20,7 @@ namespace first1
         public void ConvByteSys()
         {
             //системное конвертирование десятичное значение целого числа пример число 56  5 в двоичной системе  = 101
-            Console.WriteLine("Введите число:");
+            Console.WriteLine("Введите число [например 30]:");
             a = Convert.ToInt32(Console.ReadLine());
 
             if (a > 0)
@@ -73,12 +73,11 @@ namespace first1
 
 
             A a = new A();
-            // a.ConvByteSys();
-             a.ConByteM();
+             a.ConvByteSys();
+            // a.ConByteM();
 
             //MetN();
-
-
+            Console.ReadKey();
 
 
         }
