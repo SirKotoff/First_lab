@@ -52,7 +52,7 @@ namespace first1
                 i++;
                num = num / 2;
 
-                Console.Write($"{a}"); 
+                Console.Write($"В двоичной -  {a}"); 
             };
 
             
@@ -89,7 +89,7 @@ namespace first1
 
             double n = 0; // степень 
             double A = 0; // число 
-            double eps = 0.0001; //точность
+            double eps = 0; //точность
 
 
            
@@ -97,6 +97,8 @@ namespace first1
             A = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("Введите корень n:");
             n = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("Введите точность ");
+            eps = Convert.ToDouble(Console.ReadLine());
 
 
             double x0 = A / n;
@@ -108,7 +110,7 @@ namespace first1
             }
             Console.WriteLine($"Корень {n}-степени для числа {A} = [{x1}]");
 
-            int a = Convert.ToInt32(Math.Pow(x1, n)); //проверка 
+            double a = Convert.ToInt32(Math.Pow(x1, n)); //проверка 
 
         Console.WriteLine($"Вы ввели число  [{a}]");
         }
