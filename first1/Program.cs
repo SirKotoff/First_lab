@@ -25,7 +25,7 @@ namespace first1
 
             if (a > 0)
             {
-                a = a / 10;
+               
                 Console.WriteLine(Convert.ToString(a, 2));
             }
             else
@@ -74,9 +74,10 @@ namespace first1
 
             A a = new A();
              a.ConvByteSys();
-            // a.ConByteM();
-
-            //MetN();
+            Console.WriteLine("---------------------");
+             a.ConByteM();
+            Console.WriteLine("---------------------");
+            MetN();
             Console.ReadKey();
 
 
