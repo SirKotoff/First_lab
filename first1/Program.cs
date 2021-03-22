@@ -52,7 +52,7 @@ namespace first1
                 i++;
                num = num / 2;
 
-                Console.Write($"В двоичной -  {a}"); 
+                Console.Write($" {a}"); 
             };
 
             
